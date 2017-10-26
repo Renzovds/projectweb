@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'Nexa Bold';
+    src: url('font/NexaBold.eot');
+    src: url('font/NexaBold.eot?#iefix') format('embedded-opentype'), url('font/NexaBold.woff') format('woff'), url('font/NexaBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa Light';
+    src: url('font/NexaLight.eot');
+    src: url('font/NexaLight.eot?#iefix') format('embedded-opentype'), url('font/NexaLight.woff') format('woff'), url('font/NexaLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+header {
+    /*    background-color:white;*/
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+body {
+    font-family: 'Nexa Bold';
+    background-image: url(images/springen.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header h1 {
+    font-family: 'Nexa Bold';
+    color: #05D775;
+    margin-top: 2rem;
+}
+
+header img {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    margin-top: 1.6rem;
+}
+
+header ul img {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 2rem;
+}
+
+h1 span:first-of-type {
+    color: #FF3270;
+}
+
+h1 span:nth-of-type(2) {
+    color: #2803A4;
+}
+
+h2 {
+    font-family: 'Nexa Bold';
+    color: #2803A4;
+    margin: 3rem 1rem 1rem 1rem;
+}
+
+h3 {
+    font-family: 'Nexa Bold';
+    color: #05D775;
+}
+
+p {
+    font-family: 'Nexa Light';
+}
+
+article {
+    margin: 0 1em 1em 1em;
+    background-color: white;
+    border-radius: 1em;
+    padding: 0.5rem 2rem 2rem 2rem;
+}
+
+@media(min-width:40rem) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    main h2 {
+        grid-column: span 2;
+    }
+}
+
+@media(min-width:70rem) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    main h2 {
+        grid-column: span 3;
+    }
+}
+
+body>section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+body>section a {
+    text-decoration: none;
+    padding: 7vw;
+    background-color: #05D775;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+
+/*
+body>section a:nth-of-type(2) {
+    background-color: forestgreen;
+}
+*/
+
+@media(min-width:22rem) {
+    body>section a {
+        padding: 2rem 2.5rem;
+    }
+}
+
+body>section a span {
+    display: block;
+}
+
+footer {
+    color: #FF3270;
+    border-bottom: 1px solid #05D775;
+    padding-bottom: 0.75em;
+}
+
+article button {
+    color: white;
+    border: none;
+    background-color: #FF3270;
+    border-radius: 1.5em;
+    padding: 0.6em 1em;
+}
+
+input[type="submit"] {
+    color: white;
+    border: none;
+    background-color: #FF3270;
+    border-radius: 1.5em;
+    padding: 0.6em 1em;
+    margin-top: 1.5rem;
+    font-family: "Nexa Bold"
+}
+
+form {
+    margin: 0 1em 1em 1em;
+    background-color: white;
+    border-radius: 1em;
+    padding: 0.5rem 1rem 0rem 0rem;
+    color: black;
+    font-family: "Nexa Light";
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-family: "Nexa Bold";
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+input {
+    border-radius: 1em;
+    border-style: solid;
+    margin: 0rem 1rem 1rem;
+    display: block;
+}
+
+label {
+    display: block;
+    margin-left: 1rem;
+}

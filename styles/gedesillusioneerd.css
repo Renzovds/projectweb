@@ -1,0 +1,7 @@
+body > main {
+    display: block;
+}
+
+main img {
+    width: 100%;
+}

@@ -149,7 +149,7 @@ footer {
     padding-bottom: 0.75em;
 }
 
-article button {
+button {
     color: white;
     border: none;
     background-color: #FF3270;
@@ -157,6 +157,9 @@ article button {
     padding: 0.6em 1em;
     display: block;
     margin-top: 1rem
+}
+article button{
+    background: transparent;
 }
 
 input[type="submit"] {
@@ -201,16 +204,16 @@ label {
 }
 
 article > div img{
-    max-width: 100%;
+    max-width: 1.5rem;
 
 }
 article > div a:first-of-type {
-    min-width: 40%;
+    min-width: 7rem;
     color: white;
     border: none;
     background-color: #FF3270;
     border-radius: 1.5em;
-    padding: 0.75em 0.4em 0.5em;
+    padding: 0.9em 0.4em 0.9em;
     display: block;
     text-align: center;
     text-decoration: none;

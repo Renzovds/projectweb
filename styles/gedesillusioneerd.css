@@ -3,5 +3,9 @@ body > main {
 }
 
 main img {
-    width: 150%;
+    width: 150rem;
+}
+
+main{
+    overflow: scroll;
 }
